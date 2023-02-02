@@ -13,26 +13,27 @@ const Portfolio = () => {
         </ul>
         </nav>
     </header>
-    <br>
-    <section id="about" class="about">
+    {'\n'}
+    <section id="about" className="about">
         <h2>About Me</h2>
         <p>My name is Bernadette Migo. I'm a junior software developer centered in the greater Richmond area</p>
-        <img src="./assets/images/bernie.jpeg" alt="Picture of Bernadette Migo" id="bernieImg">
+        <img src="./assets/images/bernie.jpeg" alt="Picture of Bernadette Migo" id="bernieImg"></img>
     </section>
 
-    <section id="work" class="work">
+    <section id="work" className="work">
         <h3>My Work</h3>
         <div>
-            <div class=>
+            <div >
                 <a href="https://github.com/bmigo/Horiseon"><img src="./assets/images/horiseon.jpg" id="horiseonImg"></a>
-            </div class="row">
+            </div>
             <div>
-                <div class="box">HTML</div>
-                <div class="box">CSS</div>
-                <div class="box">JavaScript</div>
+                <div className="box">HTML</div>
+                <div className="box">CSS</div>
+                <div className="box">JavaScript</div>
             </div>
         </div>
         
     </section>
+    </body>
   )
 }
