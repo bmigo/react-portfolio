@@ -24,7 +24,7 @@ const Portfolio = () => {
         <h3>My Work</h3>
         <div>
             <div >
-                <a href="https://github.com/bmigo/Horiseon"><img src="./assets/images/horiseon.jpg" id="horiseonImg"></a>
+                <a href="https://github.com/bmigo/Horiseon"><img src="./assets/images/horiseon.jpg" id="horiseonImg"></img></a>
             </div>
             <div>
                 <div className="box">HTML</div>
